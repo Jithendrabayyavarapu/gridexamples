@@ -1,7 +1,44 @@
-.parent{
+parent{
     display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:2fr;
-    column-gap:20px;
-    row-gap:20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:2fr 1fr 1fr 1fr;
+    column-gap:8px;
+    row-gap:8px;
+    height:500px;
+    width:500px;
+    /* align-items: center; */
+    margin-left: 400px;
+    margin-right:400px;
+}
+.child1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px soild black;
+    background-color: aqua;
+    /* align-items:center; */
+}
+.child2{
+    border: 1px soild black;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.child3{
+    border: 1px soild black;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.child4,.child5,.child6,.child7,.child8,.child9,.child10,.child11,.child12{
+    border: 1px soild black;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
 }
